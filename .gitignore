@@ -1,0 +1,22 @@
+# 构建产物
+build/
+dist/
+installer_output/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 敏感数据：真实映射规则文件与扫描样本图片
+*.xlsx
+_page1.png
+
+# IDE / 系统临时文件
+.idea/
+.vscode/
+*.log
+~$*
+Thumbs.db

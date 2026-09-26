@@ -1,0 +1,18 @@
+# 运行与打包依赖（Python 3.10+，本机 3.14 验证通过）
+# GUI 框架
+customtkinter>=6.0.0
+
+# PDF 渲染为图片
+pypdfium2>=4.0.0
+
+# PDF 拆分（按页范围抽取新文档）
+pypdf>=4.0.0
+
+# OCR 识别（含 onnxruntime、opencv 等依赖链）
+rapidocr_onnxruntime>=1.2.3
+
+# 规则 Excel 读写
+openpyxl>=3.1.0
+
+# 打包
+pyinstaller>=6.0.0
